@@ -21,8 +21,9 @@ class IndexController extends Controller
     }
 
     private function addId($news, $new) { // Добавление к массиву введённых админом данных о свежей новости её индивидуального номера
-        $lastKey = array_search($news[count($news)], $news);
-        $new['id'] = $lastKey + 1;
+        ksort($news);
+        $lastKey = end($news)['id']; // Определяем id массива с наибольшим ключём
+        $new['id'] = $lastKey + 1; // Определяем ключ и id для свежей новости как больший на единицу чем максимальный из имеющихся
         return $new;
     }
 
@@ -37,13 +38,13 @@ class IndexController extends Controller
 
         if ($request->isMethod('post')) {
             $new = $request->except('_token');
-            $news = json_decode(\File::get('news.txt'), true);
+            $news = json_decode(\File::get('news.txt'), true, 512,JSON_UNESCAPED_UNICODE);
             $new = $this->addId($news, $new);
             $news[$new['id']] = $this->addIsPrivate($new);
-            \File::put('news.txt', json_encode($news), false);
+            \File::put('news.txt', json_encode($news, JSON_PRETTY_PRINT), false);
             $request->flash();
             // dd($request->all());
-            return redirect()->route('news.index');
+            return redirect()->route ('news.index');
 
         }
 

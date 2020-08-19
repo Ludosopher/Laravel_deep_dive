@@ -9,11 +9,15 @@
 
 @section('content')
     @if (!$news['isPrivate'])
-        <ul class="list-group">
-            <li class="list-group-item active">{{$news['title']}}</li>
-            <li class="list-group-item">{{$news['text']}}</li>
-         </ul>
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item active">{{$news['title']}}</li>
+                <li class="list-group-item">{{$news['text']}}</li>
+            </ul>
+        </div>
      @else
-        Новость приватная. Зарегистрируйтесь для просмотра.
+        <div class="container">
+            Новость приватная. Зарегистрируйтесь для просмотра.
+        </div>
     @endif
 @endsection

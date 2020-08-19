@@ -1,1 +1,79 @@
-{"1":{"id":1,"title":"News 1","text":"Referee Kazartsev was suspended from the RPL after a polygraph test.","category_id":1,"isPrivate":true},"2":{"id":2,"title":"News 2","text":"Lokomotiv was strengthened by the forward of the national team of Guinea Francois Camano.","category_id":1,"isPrivate":false},"3":{"id":3,"title":"News 3","text":"Lukashenko called a condition for holding new presidential elections.","category_id":2,"isPrivate":true},"4":{"id":4,"title":"News 4","text":"The US rejected the Russian proposal for a summit on Iran.","category_id":2,"isPrivate":false},"5":{"title":"News 5","category_id":"1","text":"Spartak is better prepared for the season than Zenit. Yes and others from the Champions League","id":5,"isPrivate":0},"6":{"title":"News 6","category_id":"1","text":"Washington suffered its third loss to the islanders, despite Kuznetsov's goal","id":6,"isPrivate":0},"7":{"title":"News 7","category_id":"2","text":"Putin said it is unacceptable to interfere in the Affairs of Belarus","id":7,"isPrivate":0},"8":{"title":"News 8","category_id":"1","text":"Spartak offered to name the planned streets near the arena in honor of legends","id":8,"isPrivate":0},"9":{"title":"News 9","category_id":"1","text":"Defender Holevas returned to Olympiacos\u00bb","id":9,"isPrivate":0}}
+{
+    "1": {
+        "id": 1,
+        "title": "News 1",
+        "text": "Referee Kazartsev was suspended from the RPL after a polygraph test.",
+        "category_id": 1,
+        "isPrivate": true
+    },
+    "2": {
+        "id": 2,
+        "title": "News 2",
+        "text": "Lokomotiv was strengthened by the forward of the national team of Guinea Francois Camano.",
+        "category_id": 1,
+        "isPrivate": false
+    },
+    "3": {
+        "id": 3,
+        "title": "News 3",
+        "text": "Lukashenko called a condition for holding new presidential elections.",
+        "category_id": 2,
+        "isPrivate": true
+    },
+    "4": {
+        "id": 4,
+        "title": "News 4",
+        "text": "The US rejected the Russian proposal for a summit on Iran.",
+        "category_id": 2,
+        "isPrivate": false
+    },
+    "5": {
+        "title": "News 5",
+        "category_id": "1",
+        "text": "Spartak is better prepared for the season than Zenit. Yes and others from the Champions League",
+        "id": 5,
+        "isPrivate": 0
+    },
+    "12": {
+        "title": "News 12",
+        "category_id": "1",
+        "text": "Avtodor signed a 4-year contract with Ilya Saltykov",
+        "id": 12,
+        "isPrivate": 0
+    },
+    "7": {
+        "title": "News 7",
+        "category_id": "2",
+        "text": "Putin said it is unacceptable to interfere in the Affairs of Belarus",
+        "id": 7,
+        "isPrivate": 0
+    },
+    "8": {
+        "title": "News 8",
+        "category_id": "1",
+        "text": "Spartak offered to name the planned streets near the arena in honor of legends",
+        "id": 8,
+        "isPrivate": 0
+    },
+    "9": {
+        "title": "News 9",
+        "category_id": "1",
+        "text": "Defender Holevas returned to Olympiacos\u00bb",
+        "id": 9,
+        "isPrivate": 0
+    },
+    "10": {
+        "title": "News 10",
+        "category_id": "2",
+        "text": "\"Understanding Ukraine\". Kravchuk called the condition for the end of the war in the Donbass",
+        "id": 10,
+        "isPrivate": 0
+    },
+    "13": {
+        "title": "News 11",
+        "category_id": "2",
+        "text": "It became known how much Degtyarev's income increased in 2019",
+        "id": 13,
+        "isPrivate": 0
+    }
+}
