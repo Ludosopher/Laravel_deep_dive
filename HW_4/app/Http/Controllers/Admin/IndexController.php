@@ -38,7 +38,8 @@ class IndexController extends Controller
         if ($request->isMethod('post')) {
             $new = $request->except('_token');
             $news = json_decode(\File::get('news.txt'), true);
-            $news[] = $this->addIsPrivate($this->addId($news, $new));
+            $new = $this->addId($news, $new);
+            $news[$new['id']] = $this->addIsPrivate($new);
             \File::put('news.txt', json_encode($news), false);
             $request->flash();
             // dd($request->all());
